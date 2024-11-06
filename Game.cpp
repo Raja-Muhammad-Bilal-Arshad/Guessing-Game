@@ -28,7 +28,7 @@ int main()
     cout << "\t\t\t\t.......... CHOOSE YOUR LEVELS..........\nLevel 1 \nLevel 2 \nLevel 3 \nLevel 4 \nLevel 5 \nLevel 6 \nLevel 7 \nLevel 8 \n";
     cout << "Enter your level: ";
     cin >> LEVEL;
-    if (!(LEVEL > 0 && LEVEL < 8))
+    if (!(LEVEL > 0 && LEVEL < 9))
     {
         cout << "YOU HAVE GIVEN WRONG INPUT";
         return 1;
