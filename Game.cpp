@@ -25,10 +25,10 @@ int main()
         cout << endl << "YOU HAVE GIVEN WRONG INPUT";
         return 1;
  
-    cout << "\t\t\t\t.......... CHOOSE YOUR LEVELS..........\nLevel 1 \nLevel 2 \nLevel 3 \nLevel 4 \nLevel 5 \nLevel 6 \nLevel 7 \nLevel 8 \n";
+    cout << "\t\t\t\t.......... CHOOSE YOUR LEVELS..........\nLevel 1 \nLevel 2 \nLevel 3 \nLevel 4 \nLevel 5 \nLevel 6 \nLevel 7 \nLevel 8\nLevel 9 \n";
     cout << "Enter your level: ";
     cin >> LEVEL;
-    if (!(LEVEL > 0 && LEVEL < 9))
+    if (!(LEVEL > 0 && LEVEL < 10))
     {
         cout << "YOU HAVE GIVEN WRONG INPUT";
         return 1;
